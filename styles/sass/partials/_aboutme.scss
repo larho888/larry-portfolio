@@ -1,0 +1,48 @@
+.aboutMe {
+    .wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        padding-top: 8%;
+        padding-bottom: 8%;
+        text-align: center;
+        .aboutTextContainer {
+            width: 70%;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+        .aboutImgContainer {
+            width: 25%;
+            margin-right: 5%;
+            img {
+                border-radius: 40%;
+                object-fit: cover;
+            }
+        }
+        p {
+            margin-top: 2%;
+            margin-bottom: 2%;
+        }
+        .flowerField img {
+            max-height: 40vh;
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 690px) {
+    .aboutMe {
+        .wrapper {
+            .aboutTextContainer  {
+                width: 100%;
+            }
+            .aboutImgContainer {
+                width: 40%;
+            }
+        }
+    }
+}

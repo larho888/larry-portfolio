@@ -1,0 +1,50 @@
+.contactForm {
+    width: 100%;
+    .formForm{
+        width: 100%;
+    }
+    input {
+        width: 46.5%;
+        border: none;
+        margin-bottom: 5%;
+        margin-top: 2%;
+        padding: 2% 1% 4% 1%;
+    }
+    .contactName {
+        margin-right: 2%;
+    }
+    textarea {
+        padding: 2% 1% 4% 1%;
+        resize: none;
+        width: 98%;
+        border: none;
+    }
+    .formButton {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .button {
+        width: 20%;
+        margin: auto;
+        margin-top: 3%;
+        background-color: $darkBlue;
+        border: 2px $teal solid;
+        padding: 2%;
+    }
+    .button:hover {
+        cursor: pointer;
+        color: $darkTeal;
+    }
+}
+
+@media (max-width: 690px) {
+    .contactForm {
+        input {
+            width: 98%;
+        }
+        .contactName {
+            margin-right: 0;
+        }
+    }
+}

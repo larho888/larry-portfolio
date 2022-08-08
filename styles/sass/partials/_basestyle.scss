@@ -1,0 +1,111 @@
+/* site fonts */
+$paragraph: "Abril Fatface', cursive";
+$heading: "Montserrat', sans-serif";
+
+/* site colours */
+$black: #0B0C10; 
+$darkBlue: #1F2833;
+$solidWhite:  white;
+$gray: #C5C6C7; 
+$teal: #66FCF1;
+$darkTeal: #45A29E;
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+.wrapper {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 125%;
+    background-color: $darkBlue
+  }
+  
+  body {
+    font-size: 1rem;
+  }
+  
+  h1, h2 {
+    font-family: $heading;
+    font-weight: bold;
+    color: $teal;
+  }
+
+  h3, h4, p {
+    color: $solidWhite
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+  
+  h2 {
+    font-size: calc(42/20)rem;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  }
+
+  li {
+    font-family: $paragraph;
+    font-size: 1rem;
+    color: $solidWhite;
+    a:hover{ 
+        color: $darkTeal;
+        transition: 0.3s;
+      }
+    }
+
+  p {
+    font-family: $paragraph;
+    font-size: 1rem;
+  }
+
+  button {
+    font-family: $heading;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1% 1%;
+    color: $solidWhite;
+    border: 1px $darkTeal solid;
+  }
+
+  .button {
+    font-family: $heading;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1% 1%;
+    color: $solidWhite;
+    border: 1px $darkTeal solid;
+    border-radius: 5%;
+    width: 105px;
+  }
+
+  textarea, input {
+    font-family: $paragraph;
+  }
+
+
+

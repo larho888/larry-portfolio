@@ -1,0 +1,31 @@
+.skills {
+    margin: 2% 0;
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        .skillsContainer {
+            i {
+                font-size: 4rem;
+            }
+            margin-top: 3%;
+            width: 20%;
+            color: yellow;
+            text-align: center;
+            h3 {
+                margin-top: 5%;
+            }
+        }
+    }
+}
+
+@media (max-width: 690px) {
+    .skills {
+        ul {
+            .skillsContainer {
+                width: 110px;
+            }
+        }
+    }
+}
