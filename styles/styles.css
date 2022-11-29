@@ -169,7 +169,7 @@ header .headerTextContainer h1 {
   overflow: hidden;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  -webkit-animation: typewriter 4s steps(40) 1s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal;
+  -webkit-animation: typewriter 4s steps(40) 1s 1 normal both, blinkTextCursor 500ms steps(419) infinite normal;
           animation: typewriter 4s steps(40) 1s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal;
 }
 @-webkit-keyframes typewriter {
@@ -177,7 +177,7 @@ header .headerTextContainer h1 {
     width: 0;
   }
   to {
-    width: 24em;
+    width: 10em;
   }
 }
 @keyframes typewriter {
@@ -185,7 +185,7 @@ header .headerTextContainer h1 {
     width: 0;
   }
   to {
-    width: 24em;
+    width: 10em;
   }
 }
 @-webkit-keyframes blinkTextCursor {
